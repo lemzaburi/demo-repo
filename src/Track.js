@@ -1,3 +1,4 @@
+import { toBeInTheDOM } from "@testing-library/jest-dom/dist/matchers"
 import React from "react"
 import styles from "./Track.module.css"
 
@@ -5,7 +6,7 @@ import styles from "./Track.module.css"
 export default function Track(){
 
     return (
-            <div className={styles.taskcontainer}>
+            <div id="heroz" className={styles.taskcontainer}>
 
                                 <div className={styles.names}>
                                         
@@ -17,12 +18,28 @@ export default function Track(){
                                 </div>
 
                                 <div className={styles.costs}>
-                                        <div id="saleout">100</div>
+                                        <p id="para-id">100</p>
                                 </div>  
 
                                 <div className={styles.btns}>
-                                        <button id="btn">+</button>
+                                        <button  id="btn-id">+</button>
                                 </div>              
                 </div>
     )
 }
+
+// const btn = document.getElementById("btn-id")
+// const para = document.getElementById("para-id")
+
+// btn.addEventListener("click", function(){
+//   let sale = Number(para.innerHTML)
+//   let totalSale = sale + 100;
+//   para.innerHTML = totalSale;
+//   console.log(sale)
+// })
+
+
+
+ 
+ 
+
