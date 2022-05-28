@@ -1,0 +1,83 @@
+.taskcontainer
+{   
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    left: 32.48%;
+    right: 1.87%;
+    top: 40.49%;
+    bottom: 3.39%;
+    /* background: lightblue; */
+    border: 1px solid #F1F1F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background: #FFFFFF;
+    
+}
+
+.names
+{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    width: 80px;
+    align-items: center;
+    /* background-color: rgb(233, 189, 236); */
+}
+
+.times 
+{   
+    width: 780px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    box-sizing: border-box;
+    margin: 8px;
+
+    
+    
+   
+}
+
+.times div
+{
+    flex-direction:column;
+    background: #A5A6F6;;
+    border-radius: 20px;
+    Width :45px;
+    Height :23px;
+    margin: 5px 6px;
+    border-radius: 20%;
+    padding: 3px;
+    
+     
+}
+
+.costs
+{   
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    
+    
+}
+
+
+.btns
+{   
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    
+    
+}
+
+.btns div
+{
+    color: pink;
+    
+    border-radius: 20px;
+    padding: 3px;
+}
+
+
