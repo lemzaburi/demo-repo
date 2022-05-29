@@ -28,16 +28,19 @@ export default function Track(){
     )
 }
 
-// const btn = document.getElementById("btn-id")
-// const para = document.getElementById("para-id")
+const btn = document.getElementById("btn-id")
+const para = document.getElementById("para-id")
 
-// btn.addEventListener("click", function(){
-//   let sale = Number(para.innerHTML)
-//   let totalSale = sale + 100;
-//   para.innerHTML = totalSale;
-//   console.log(sale)
-// })
+btn.addEventListener("click", function(){
+  let sale = Number(para.innerHTML)
+  let totalSale = sale + 100;
+  para.innerHTML = totalSale;
+  console.log(sale)
+  console.log(sale)
+})
 
+
+// i am learning to use git here 
 
 
  
